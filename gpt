@@ -1,0 +1,17 @@
+# /etc/rsyslog.conf
+
+# Enable UDP syslog reception
+module(load="imudp")
+input(type="imudp" port="514")
+
+# Define template for log format
+template(name="CustomFormat" type="string" string="<%PRI%>%TIMESTAMP% %HOSTNAME% %syslogtag%%msg%\n")
+
+# Rule to capture logs from 10.0.9.0 and store in /var/log/syslog.log
+if $fromhost-ip == '10.0.9.0' then {
+    action(type="omfile" file="/var/log/syslog.log" template="CustomFormat")
+    stop
+}
+
+# Default rule for other logs (optional, to prevent processing)
+*.* /dev/null
