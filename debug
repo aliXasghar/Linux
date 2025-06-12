@@ -1,0 +1,400 @@
+4649.039718140:main thread    : glbl.c: debug level 2 set via config file
+4649.039738763:main thread    : glbl.c: This is rsyslog version 8.2102.0-15.el8
+4649.039745140:main thread    : conf.c: Decoding traditional PRI filter '*.*'
+4649.039749046:main thread    : srutils.c: symbolic name: * ==> 255
+4649.039758191:main thread    : rsconf.c: cnf:global:script
+4649.039770800:main thread    : conf.c: tried selector action for builtin:omfile: -2001
+4649.039802839:main thread    : conf.c: tried selector action for builtin:ompipe: -2001
+4649.039807805:main thread    : conf.c: tried selector action for builtin-shell: -2001
+4649.039811653:main thread    : conf.c: tried selector action for builtin:omdiscard: -2001
+4649.039815118:main thread    : conf.c: tried selector action for builtin:omfwd: -2001
+4649.039823464:main thread    : errmsg.c: Called LogMsg, msg: action '*' treated as ':omusrmsg:*' - please use ':omusrmsg:*' syntax instead, '*' will not be supported in the future
+4649.039827845:main thread    : operatingstate.c: osf: MSG action '*' treated as ':omusrmsg:*' - please use ':omusrmsg:*' syntax instead, '*' will not be supported in the future: write-alltried selector action for builtin:omusrmsg: -2186
+4649.039871548:main thread    : ../action.c: Module builtin:omusrmsg processes this action.
+4649.039876076:main thread    : ../action.c: template: ' WallFmt' assigned
+4649.039882523:main thread    : action-1-builtin:omusrmsg queue: queue.c: parameter dump:
+4649.039885879:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.filename '[NONE]'
+4649.039889336:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.size: 1000
+4649.039893163:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.dequeuebatchsize: 16
+4649.039896736:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.mindequeuebatchsize: 0
+4649.039899658:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.039903251:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.maxdiskspace: 0
+4649.039907082:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.highwatermark: -1
+4649.039910383:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.lowwatermark: -1
+4649.039913287:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.fulldelaymark: -1
+4649.039916701:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.lightdelaymark: -1
+4649.039920450:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.039923796:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.discardmark: 980
+4649.039926731:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.discardseverity: 8
+4649.039930090:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.checkpointinterval: 0
+4649.039933937:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.syncqueuefiles: 0
+4649.039937351:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.type: 3 [Direct]
+4649.039940250:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.workerthreads: 1
+4649.039943567:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.timeoutshutdown: 0
+4649.039947376:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.039950673:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.timeoutenqueue: 50
+4649.039953510:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.039957001:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.workerthreadminimummessages: -1
+4649.039960908:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.maxfilesize: 1048576
+4649.039964205:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.saveonshutdown: 1
+4649.039966943:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.dequeueslowdown: 0
+4649.039970236:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.dequeuetimebegin: 0
+4649.039973989:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.dequeuetimeend: 25
+4649.039982633:main thread    : ../action.c: Action 0x5609621cd310: queue 0x5609621cd7d0 created
+4649.039989546:main thread    : errmsg.c: Called LogMsg, msg: error during parsing file /etc/rsyslog.conf, on or before line 49: warnings occured in file '/etc/rsyslog.conf' around line 49
+4649.039993916:main thread    : operatingstate.c: osf: MSG error during parsing file /etc/rsyslog.conf, on or before line 49: warnings occured in file '/etc/rsyslog.conf' around line 49: Called LogMsg, msg: invalid character in selector line - ';template' expected
+4649.040009413:main thread    : operatingstate.c: osf: MSG invalid character in selector line - ';template' expected: tried selector action for builtin:omfile: -3000
+4649.040020036:main thread    : conf.c: error -3000 parsing config line
+4649.040023602:main thread    : errmsg.c: Called LogMsg, msg: error during parsing file /etc/rsyslog.conf, on or before line 49: errors occured in file '/etc/rsyslog.conf' around line 49
+4649.040026971:main thread    : operatingstate.c: osf: MSG error during parsing file /etc/rsyslog.conf, on or before line 49: errors occured in file '/etc/rsyslog.conf' around line 49: tried selector action for builtin:omfile: 0
+4649.040041938:main thread    : ../action.c: Module builtin:omfile processes this action.
+4649.040048256:main thread    : ../action.c: template: 'RSYSLOG_TraditionalFileFormat' assigned
+4649.040057119:main thread    : action-2-builtin:omfile queue: queue.c: parameter dump:
+4649.040061029:main thread    : action-2-builtin:omfile queue: queue.c: queue.filename '[NONE]'
+4649.040063877:main thread    : action-2-builtin:omfile queue: queue.c: queue.size: 1000
+4649.040067259:main thread    : action-2-builtin:omfile queue: queue.c: queue.dequeuebatchsize: 16
+4649.040071036:main thread    : action-2-builtin:omfile queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040074376:main thread    : action-2-builtin:omfile queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040077183:main thread    : action-2-builtin:omfile queue: queue.c: queue.maxdiskspace: 0
+4649.040080530:main thread    : action-2-builtin:omfile queue: queue.c: queue.highwatermark: -1
+4649.040084407:main thread    : action-2-builtin:omfile queue: queue.c: queue.lowwatermark: -1
+4649.040087734:main thread    : action-2-builtin:omfile queue: queue.c: queue.fulldelaymark: -1
+4649.040090474:main thread    : action-2-builtin:omfile queue: queue.c: queue.lightdelaymark: -1
+4649.040093767:main thread    : action-2-builtin:omfile queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.040097440:main thread    : action-2-builtin:omfile queue: queue.c: queue.discardmark: 980
+4649.040100666:main thread    : action-2-builtin:omfile queue: queue.c: queue.discardseverity: 8
+4649.040103417:main thread    : action-2-builtin:omfile queue: queue.c: queue.checkpointinterval: 0
+4649.040106766:main thread    : action-2-builtin:omfile queue: queue.c: queue.syncqueuefiles: 0
+4649.040110616:main thread    : action-2-builtin:omfile queue: queue.c: queue.type: 3 [Direct]
+4649.040113950:main thread    : action-2-builtin:omfile queue: queue.c: queue.workerthreads: 1
+4649.040116808:main thread    : action-2-builtin:omfile queue: queue.c: queue.timeoutshutdown: 0
+4649.040120159:main thread    : action-2-builtin:omfile queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.040123821:main thread    : action-2-builtin:omfile queue: queue.c: queue.timeoutenqueue: 50
+4649.040127091:main thread    : action-2-builtin:omfile queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.040129931:main thread    : action-2-builtin:omfile queue: queue.c: queue.workerthreadminimummessages: -1
+4649.040133344:main thread    : action-2-builtin:omfile queue: queue.c: queue.maxfilesize: 1048576
+4649.040137058:main thread    : action-2-builtin:omfile queue: queue.c: queue.saveonshutdown: 1
+4649.040140356:main thread    : action-2-builtin:omfile queue: queue.c: queue.dequeueslowdown: 0
+4649.040143204:main thread    : action-2-builtin:omfile queue: queue.c: queue.dequeuetimebegin: 0
+4649.040149859:main thread    : action-2-builtin:omfile queue: queue.c: queue.dequeuetimeend: 25
+4649.040153731:main thread    : ../action.c: Action 0x5609621cebd0: queue 0x5609621cefd0 created
+4649.040158191:main thread    : conf.c: Decoding traditional PRI filter '*.info;mail.none;authpriv.none;cron.none'
+4649.040161388:main thread    : srutils.c: symbolic name: info ==> 6
+4649.040169177:main thread    : srutils.c: symbolic name: none ==> 16
+4649.040175244:main thread    : srutils.c: symbolic name: mail ==> 16
+4649.040182210:main thread    : srutils.c: symbolic name: none ==> 16
+4649.040187988:main thread    : srutils.c: symbolic name: authpriv ==> 80
+4649.040194840:main thread    : srutils.c: symbolic name: none ==> 16
+4649.040200713:main thread    : srutils.c: symbolic name: cron ==> 72
+4649.040208910:main thread    : conf.c: tried selector action for builtin:omfile: 0
+4649.040212250:main thread    : ../action.c: Module builtin:omfile processes this action.
+4649.040215291:main thread    : ../action.c: template: 'RSYSLOG_TraditionalFileFormat' assigned
+4649.040219964:main thread    : action-3-builtin:omfile queue: queue.c: parameter dump:
+4649.040223953:main thread    : action-3-builtin:omfile queue: queue.c: queue.filename '[NONE]'
+4649.040227282:main thread    : action-3-builtin:omfile queue: queue.c: queue.size: 1000
+4649.040230145:main thread    : action-3-builtin:omfile queue: queue.c: queue.dequeuebatchsize: 16
+4649.040233469:main thread    : action-3-builtin:omfile queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040237246:main thread    : action-3-builtin:omfile queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040240534:main thread    : action-3-builtin:omfile queue: queue.c: queue.maxdiskspace: 0
+4649.040243287:main thread    : action-3-builtin:omfile queue: queue.c: queue.highwatermark: -1
+[root@gsoc-gdc-p-si-syslog5 syslog]# head -300 /var/log/rsyslog.debug1.log
+
+4649.039718140:main thread    : glbl.c: debug level 2 set via config file
+4649.039738763:main thread    : glbl.c: This is rsyslog version 8.2102.0-15.el8
+4649.039745140:main thread    : conf.c: Decoding traditional PRI filter '*.*'
+4649.039749046:main thread    : srutils.c: symbolic name: * ==> 255
+4649.039758191:main thread    : rsconf.c: cnf:global:script
+4649.039770800:main thread    : conf.c: tried selector action for builtin:omfile: -2001
+4649.039802839:main thread    : conf.c: tried selector action for builtin:ompipe: -2001
+4649.039807805:main thread    : conf.c: tried selector action for builtin-shell: -2001
+4649.039811653:main thread    : conf.c: tried selector action for builtin:omdiscard: -2001
+4649.039815118:main thread    : conf.c: tried selector action for builtin:omfwd: -2001
+4649.039823464:main thread    : errmsg.c: Called LogMsg, msg: action '*' treated as ':omusrmsg:*' - please use ':omusrmsg:*' syntax instead, '*' will not be supported in the future
+4649.039827845:main thread    : operatingstate.c: osf: MSG action '*' treated as ':omusrmsg:*' - please use ':omusrmsg:*' syntax instead, '*' will not be supported in the future: write-alltried selector action for builtin:omusrmsg: -2186
+4649.039871548:main thread    : ../action.c: Module builtin:omusrmsg processes this action.
+4649.039876076:main thread    : ../action.c: template: ' WallFmt' assigned
+4649.039882523:main thread    : action-1-builtin:omusrmsg queue: queue.c: parameter dump:
+4649.039885879:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.filename '[NONE]'
+4649.039889336:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.size: 1000
+4649.039893163:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.dequeuebatchsize: 16
+4649.039896736:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.mindequeuebatchsize: 0
+4649.039899658:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.039903251:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.maxdiskspace: 0
+4649.039907082:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.highwatermark: -1
+4649.039910383:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.lowwatermark: -1
+4649.039913287:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.fulldelaymark: -1
+4649.039916701:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.lightdelaymark: -1
+4649.039920450:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.039923796:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.discardmark: 980
+4649.039926731:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.discardseverity: 8
+4649.039930090:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.checkpointinterval: 0
+4649.039933937:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.syncqueuefiles: 0
+4649.039937351:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.type: 3 [Direct]
+4649.039940250:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.workerthreads: 1
+4649.039943567:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.timeoutshutdown: 0
+4649.039947376:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.039950673:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.timeoutenqueue: 50
+4649.039953510:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.039957001:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.workerthreadminimummessages: -1
+4649.039960908:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.maxfilesize: 1048576
+4649.039964205:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.saveonshutdown: 1
+4649.039966943:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.dequeueslowdown: 0
+4649.039970236:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.dequeuetimebegin: 0
+4649.039973989:main thread    : action-1-builtin:omusrmsg queue: queue.c: queue.dequeuetimeend: 25
+4649.039982633:main thread    : ../action.c: Action 0x5609621cd310: queue 0x5609621cd7d0 created
+4649.039989546:main thread    : errmsg.c: Called LogMsg, msg: error during parsing file /etc/rsyslog.conf, on or before line 49: warnings occured in file '/etc/rsyslog.conf' around line 49
+4649.039993916:main thread    : operatingstate.c: osf: MSG error during parsing file /etc/rsyslog.conf, on or before line 49: warnings occured in file '/etc/rsyslog.conf' around line 49: Called LogMsg, msg: invalid character in selector line - ';template' expected
+4649.040009413:main thread    : operatingstate.c: osf: MSG invalid character in selector line - ';template' expected: tried selector action for builtin:omfile: -3000
+4649.040020036:main thread    : conf.c: error -3000 parsing config line
+4649.040023602:main thread    : errmsg.c: Called LogMsg, msg: error during parsing file /etc/rsyslog.conf, on or before line 49: errors occured in file '/etc/rsyslog.conf' around line 49
+4649.040026971:main thread    : operatingstate.c: osf: MSG error during parsing file /etc/rsyslog.conf, on or before line 49: errors occured in file '/etc/rsyslog.conf' around line 49: tried selector action for builtin:omfile: 0
+4649.040041938:main thread    : ../action.c: Module builtin:omfile processes this action.
+4649.040048256:main thread    : ../action.c: template: 'RSYSLOG_TraditionalFileFormat' assigned
+4649.040057119:main thread    : action-2-builtin:omfile queue: queue.c: parameter dump:
+4649.040061029:main thread    : action-2-builtin:omfile queue: queue.c: queue.filename '[NONE]'
+4649.040063877:main thread    : action-2-builtin:omfile queue: queue.c: queue.size: 1000
+4649.040067259:main thread    : action-2-builtin:omfile queue: queue.c: queue.dequeuebatchsize: 16
+4649.040071036:main thread    : action-2-builtin:omfile queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040074376:main thread    : action-2-builtin:omfile queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040077183:main thread    : action-2-builtin:omfile queue: queue.c: queue.maxdiskspace: 0
+4649.040080530:main thread    : action-2-builtin:omfile queue: queue.c: queue.highwatermark: -1
+4649.040084407:main thread    : action-2-builtin:omfile queue: queue.c: queue.lowwatermark: -1
+4649.040087734:main thread    : action-2-builtin:omfile queue: queue.c: queue.fulldelaymark: -1
+4649.040090474:main thread    : action-2-builtin:omfile queue: queue.c: queue.lightdelaymark: -1
+4649.040093767:main thread    : action-2-builtin:omfile queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.040097440:main thread    : action-2-builtin:omfile queue: queue.c: queue.discardmark: 980
+4649.040100666:main thread    : action-2-builtin:omfile queue: queue.c: queue.discardseverity: 8
+4649.040103417:main thread    : action-2-builtin:omfile queue: queue.c: queue.checkpointinterval: 0
+4649.040106766:main thread    : action-2-builtin:omfile queue: queue.c: queue.syncqueuefiles: 0
+4649.040110616:main thread    : action-2-builtin:omfile queue: queue.c: queue.type: 3 [Direct]
+4649.040113950:main thread    : action-2-builtin:omfile queue: queue.c: queue.workerthreads: 1
+4649.040116808:main thread    : action-2-builtin:omfile queue: queue.c: queue.timeoutshutdown: 0
+4649.040120159:main thread    : action-2-builtin:omfile queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.040123821:main thread    : action-2-builtin:omfile queue: queue.c: queue.timeoutenqueue: 50
+4649.040127091:main thread    : action-2-builtin:omfile queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.040129931:main thread    : action-2-builtin:omfile queue: queue.c: queue.workerthreadminimummessages: -1
+4649.040133344:main thread    : action-2-builtin:omfile queue: queue.c: queue.maxfilesize: 1048576
+4649.040137058:main thread    : action-2-builtin:omfile queue: queue.c: queue.saveonshutdown: 1
+4649.040140356:main thread    : action-2-builtin:omfile queue: queue.c: queue.dequeueslowdown: 0
+4649.040143204:main thread    : action-2-builtin:omfile queue: queue.c: queue.dequeuetimebegin: 0
+4649.040149859:main thread    : action-2-builtin:omfile queue: queue.c: queue.dequeuetimeend: 25
+4649.040153731:main thread    : ../action.c: Action 0x5609621cebd0: queue 0x5609621cefd0 created
+4649.040158191:main thread    : conf.c: Decoding traditional PRI filter '*.info;mail.none;authpriv.none;cron.none'
+4649.040161388:main thread    : srutils.c: symbolic name: info ==> 6
+4649.040169177:main thread    : srutils.c: symbolic name: none ==> 16
+4649.040175244:main thread    : srutils.c: symbolic name: mail ==> 16
+4649.040182210:main thread    : srutils.c: symbolic name: none ==> 16
+4649.040187988:main thread    : srutils.c: symbolic name: authpriv ==> 80
+4649.040194840:main thread    : srutils.c: symbolic name: none ==> 16
+4649.040200713:main thread    : srutils.c: symbolic name: cron ==> 72
+4649.040208910:main thread    : conf.c: tried selector action for builtin:omfile: 0
+4649.040212250:main thread    : ../action.c: Module builtin:omfile processes this action.
+4649.040215291:main thread    : ../action.c: template: 'RSYSLOG_TraditionalFileFormat' assigned
+4649.040219964:main thread    : action-3-builtin:omfile queue: queue.c: parameter dump:
+4649.040223953:main thread    : action-3-builtin:omfile queue: queue.c: queue.filename '[NONE]'
+4649.040227282:main thread    : action-3-builtin:omfile queue: queue.c: queue.size: 1000
+4649.040230145:main thread    : action-3-builtin:omfile queue: queue.c: queue.dequeuebatchsize: 16
+4649.040233469:main thread    : action-3-builtin:omfile queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040237246:main thread    : action-3-builtin:omfile queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040240534:main thread    : action-3-builtin:omfile queue: queue.c: queue.maxdiskspace: 0
+4649.040243287:main thread    : action-3-builtin:omfile queue: queue.c: queue.highwatermark: -1
+4649.040246647:main thread    : action-3-builtin:omfile queue: queue.c: queue.lowwatermark: -1
+4649.040250378:main thread    : action-3-builtin:omfile queue: queue.c: queue.fulldelaymark: -1
+4649.040253682:main thread    : action-3-builtin:omfile queue: queue.c: queue.lightdelaymark: -1
+4649.040256491:main thread    : action-3-builtin:omfile queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.040259838:main thread    : action-3-builtin:omfile queue: queue.c: queue.discardmark: 980
+4649.040263479:main thread    : action-3-builtin:omfile queue: queue.c: queue.discardseverity: 8
+4649.040266672:main thread    : action-3-builtin:omfile queue: queue.c: queue.checkpointinterval: 0
+4649.040269473:main thread    : action-3-builtin:omfile queue: queue.c: queue.syncqueuefiles: 0
+4649.040272868:main thread    : action-3-builtin:omfile queue: queue.c: queue.type: 3 [Direct]
+4649.040276590:main thread    : action-3-builtin:omfile queue: queue.c: queue.workerthreads: 1
+4649.040279913:main thread    : action-3-builtin:omfile queue: queue.c: queue.timeoutshutdown: 0
+4649.040282787:main thread    : action-3-builtin:omfile queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.040286172:main thread    : action-3-builtin:omfile queue: queue.c: queue.timeoutenqueue: 50
+4649.040289861:main thread    : action-3-builtin:omfile queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.040293089:main thread    : action-3-builtin:omfile queue: queue.c: queue.workerthreadminimummessages: -1
+4649.040295914:main thread    : action-3-builtin:omfile queue: queue.c: queue.maxfilesize: 1048576
+4649.040299240:main thread    : action-3-builtin:omfile queue: queue.c: queue.saveonshutdown: 1
+4649.040302953:main thread    : action-3-builtin:omfile queue: queue.c: queue.dequeueslowdown: 0
+4649.040306207:main thread    : action-3-builtin:omfile queue: queue.c: queue.dequeuetimebegin: 0
+4649.040308996:main thread    : action-3-builtin:omfile queue: queue.c: queue.dequeuetimeend: 25
+4649.040312518:main thread    : ../action.c: Action 0x5609621cf6d0: queue 0x5609621cfb70 created
+4649.040317388:main thread    : conf.c: Decoding traditional PRI filter 'authpriv.*'
+4649.040320801:main thread    : srutils.c: symbolic name: * ==> 255
+4649.040328927:main thread    : srutils.c: symbolic name: authpriv ==> 80
+4649.040338953:main thread    : conf.c: tried selector action for builtin:omfile: 0
+4649.040342039:main thread    : ../action.c: Module builtin:omfile processes this action.
+4649.040346217:main thread    : ../action.c: template: 'RSYSLOG_TraditionalFileFormat' assigned
+4649.040351064:main thread    : action-4-builtin:omfile queue: queue.c: parameter dump:
+4649.040354130:main thread    : action-4-builtin:omfile queue: queue.c: queue.filename '[NONE]'
+4649.040356918:main thread    : action-4-builtin:omfile queue: queue.c: queue.size: 1000
+4649.040360784:main thread    : action-4-builtin:omfile queue: queue.c: queue.dequeuebatchsize: 16
+4649.040364428:main thread    : action-4-builtin:omfile queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040367226:main thread    : action-4-builtin:omfile queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040370027:main thread    : action-4-builtin:omfile queue: queue.c: queue.maxdiskspace: 0
+4649.040373880:main thread    : action-4-builtin:omfile queue: queue.c: queue.highwatermark: -1
+4649.040377617:main thread    : action-4-builtin:omfile queue: queue.c: queue.lowwatermark: -1
+4649.040380470:main thread    : action-4-builtin:omfile queue: queue.c: queue.fulldelaymark: -1
+4649.040383238:main thread    : action-4-builtin:omfile queue: queue.c: queue.lightdelaymark: -1
+4649.040387182:main thread    : action-4-builtin:omfile queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.040390872:main thread    : action-4-builtin:omfile queue: queue.c: queue.discardmark: 980
+4649.040393623:main thread    : action-4-builtin:omfile queue: queue.c: queue.discardseverity: 8
+4649.040396356:main thread    : action-4-builtin:omfile queue: queue.c: queue.checkpointinterval: 0
+4649.040400203:main thread    : action-4-builtin:omfile queue: queue.c: queue.syncqueuefiles: 0
+4649.040403991:main thread    : action-4-builtin:omfile queue: queue.c: queue.type: 3 [Direct]
+4649.040406855:main thread    : action-4-builtin:omfile queue: queue.c: queue.workerthreads: 1
+4649.040409572:main thread    : action-4-builtin:omfile queue: queue.c: queue.timeoutshutdown: 0
+4649.040413369:main thread    : action-4-builtin:omfile queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.040416621:main thread    : action-4-builtin:omfile queue: queue.c: queue.timeoutenqueue: 50
+4649.040419424:main thread    : action-4-builtin:omfile queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.040422143:main thread    : action-4-builtin:omfile queue: queue.c: queue.workerthreadminimummessages: -1
+4649.040426000:main thread    : action-4-builtin:omfile queue: queue.c: queue.maxfilesize: 1048576
+4649.040429689:main thread    : action-4-builtin:omfile queue: queue.c: queue.saveonshutdown: 1
+4649.040432523:main thread    : action-4-builtin:omfile queue: queue.c: queue.dequeueslowdown: 0
+4649.040435354:main thread    : action-4-builtin:omfile queue: queue.c: queue.dequeuetimebegin: 0
+4649.040439206:main thread    : action-4-builtin:omfile queue: queue.c: queue.dequeuetimeend: 25
+4649.040442911:main thread    : ../action.c: Action 0x5609621d0270: queue 0x5609621d0710 created
+4649.040446451:main thread    : conf.c: Decoding traditional PRI filter 'mail.*'
+4649.040449428:main thread    : srutils.c: symbolic name: * ==> 255
+4649.040456707:main thread    : srutils.c: symbolic name: mail ==> 16
+4649.040463638:main thread    : conf.c: tried selector action for builtin:omfile: 0
+4649.040467668:main thread    : ../action.c: Module builtin:omfile processes this action.
+4649.040470838:main thread    : ../action.c: template: 'RSYSLOG_TraditionalFileFormat' assigned
+4649.040476811:main thread    : action-5-builtin:omfile queue: queue.c: parameter dump:
+4649.040480373:main thread    : action-5-builtin:omfile queue: queue.c: queue.filename '[NONE]'
+4649.040485660:main thread    : action-5-builtin:omfile queue: queue.c: queue.size: 1000
+4649.040488954:main thread    : action-5-builtin:omfile queue: queue.c: queue.dequeuebatchsize: 16
+4649.040491709:main thread    : action-5-builtin:omfile queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040497777:main thread    : action-5-builtin:omfile queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040501616:main thread    : action-5-builtin:omfile queue: queue.c: queue.maxdiskspace: 0
+4649.040504783:main thread    : action-5-builtin:omfile queue: queue.c: queue.highwatermark: -1
+4649.040507547:main thread    : action-5-builtin:omfile queue: queue.c: queue.lowwatermark: -1
+4649.040510903:main thread    : action-5-builtin:omfile queue: queue.c: queue.fulldelaymark: -1
+4649.040514688:main thread    : action-5-builtin:omfile queue: queue.c: queue.lightdelaymark: -1
+4649.040517892:main thread    : action-5-builtin:omfile queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.040520697:main thread    : action-5-builtin:omfile queue: queue.c: queue.discardmark: 980
+4649.040523991:main thread    : action-5-builtin:omfile queue: queue.c: queue.discardseverity: 8
+4649.040527671:main thread    : action-5-builtin:omfile queue: queue.c: queue.checkpointinterval: 0
+4649.040530771:main thread    : action-5-builtin:omfile queue: queue.c: queue.syncqueuefiles: 0
+4649.040533576:main thread    : action-5-builtin:omfile queue: queue.c: queue.type: 3 [Direct]
+4649.040536850:main thread    : action-5-builtin:omfile queue: queue.c: queue.workerthreads: 1
+4649.040540617:main thread    : action-5-builtin:omfile queue: queue.c: queue.timeoutshutdown: 0
+4649.040543975:main thread    : action-5-builtin:omfile queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.040546790:main thread    : action-5-builtin:omfile queue: queue.c: queue.timeoutenqueue: 50
+4649.040550104:main thread    : action-5-builtin:omfile queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.040553905:main thread    : action-5-builtin:omfile queue: queue.c: queue.workerthreadminimummessages: -1
+4649.040557287:main thread    : action-5-builtin:omfile queue: queue.c: queue.maxfilesize: 1048576
+4649.040560027:main thread    : action-5-builtin:omfile queue: queue.c: queue.saveonshutdown: 1
+4649.040563307:main thread    : action-5-builtin:omfile queue: queue.c: queue.dequeueslowdown: 0
+4649.040567008:main thread    : action-5-builtin:omfile queue: queue.c: queue.dequeuetimebegin: 0
+4649.040570382:main thread    : action-5-builtin:omfile queue: queue.c: queue.dequeuetimeend: 25
+4649.040573318:main thread    : ../action.c: Action 0x5609621d0e10: queue 0x5609621d12b0 created
+4649.040577652:main thread    : conf.c: Decoding traditional PRI filter 'cron.*'
+4649.040581460:main thread    : srutils.c: symbolic name: * ==> 255
+4649.040587198:main thread    : srutils.c: symbolic name: cron ==> 72
+4649.040595239:main thread    : conf.c: tried selector action for builtin:omfile: -2001
+4649.040598889:main thread    : conf.c: tried selector action for builtin:ompipe: -2001
+4649.040601964:main thread    : conf.c: tried selector action for builtin-shell: -2001
+4649.040605566:main thread    : conf.c: tried selector action for builtin:omdiscard: -2001
+4649.040609629:main thread    : conf.c: tried selector action for builtin:omfwd: -2001
+4649.040613228:main thread    : omusrmsg.c: write-alltried selector action for builtin:omusrmsg: 0
+4649.040619385:main thread    : ../action.c: Module builtin:omusrmsg processes this action.
+4649.040623494:main thread    : ../action.c: template: ' WallFmt' assigned
+4649.040630223:main thread    : action-6-builtin:omusrmsg queue: queue.c: parameter dump:
+4649.040633123:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.filename '[NONE]'
+4649.040637061:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.size: 1000
+4649.040640789:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.dequeuebatchsize: 16
+4649.040643593:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040646366:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040650258:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.maxdiskspace: 0
+4649.040653993:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.highwatermark: -1
+4649.040659459:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.lowwatermark: -1
+4649.040662312:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.fulldelaymark: -1
+4649.040666178:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.lightdelaymark: -1
+4649.040669903:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.040684149:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.discardmark: 980
+4649.040687487:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.discardseverity: 8
+4649.040690287:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.checkpointinterval: 0
+4649.040693031:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.syncqueuefiles: 0
+4649.040696432:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.type: 3 [Direct]
+4649.040700178:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.workerthreads: 1
+4649.040703550:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.timeoutshutdown: 0
+4649.040706421:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.040709788:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.timeoutenqueue: 50
+4649.040713514:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.040716768:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.workerthreadminimummessages: -1
+4649.040719530:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.maxfilesize: 1048576
+4649.040722965:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.saveonshutdown: 1
+4649.040726696:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.dequeueslowdown: 0
+4649.040730044:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.dequeuetimebegin: 0
+4649.040732834:main thread    : action-6-builtin:omusrmsg queue: queue.c: queue.dequeuetimeend: 25
+4649.040736296:main thread    : ../action.c: Action 0x5609621d1ae0: queue 0x5609621d1eb0 created
+4649.040741726:main thread    : conf.c: Decoding traditional PRI filter '*.emerg'
+4649.040745689:main thread    : srutils.c: symbolic name: emerg ==> 0
+4649.040755383:main thread    : conf.c: tried selector action for builtin:omfile: 0
+4649.040759346:main thread    : ../action.c: Module builtin:omfile processes this action.
+4649.040763151:main thread    : ../action.c: template: 'RSYSLOG_TraditionalFileFormat' assigned
+4649.040767392:main thread    : action-7-builtin:omfile queue: queue.c: parameter dump:
+4649.040770944:main thread    : action-7-builtin:omfile queue: queue.c: queue.filename '[NONE]'
+4649.040774674:main thread    : action-7-builtin:omfile queue: queue.c: queue.size: 1000
+4649.040777945:main thread    : action-7-builtin:omfile queue: queue.c: queue.dequeuebatchsize: 16
+4649.040780674:main thread    : action-7-builtin:omfile queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040784011:main thread    : action-7-builtin:omfile queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040787857:main thread    : action-7-builtin:omfile queue: queue.c: queue.maxdiskspace: 0
+4649.040791279:main thread    : action-7-builtin:omfile queue: queue.c: queue.highwatermark: -1
+4649.040794429:main thread    : action-7-builtin:omfile queue: queue.c: queue.lowwatermark: -1
+4649.040797775:main thread    : action-7-builtin:omfile queue: queue.c: queue.fulldelaymark: -1
+4649.040801327:main thread    : action-7-builtin:omfile queue: queue.c: queue.lightdelaymark: -1
+4649.040804122:main thread    : action-7-builtin:omfile queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.040806892:main thread    : action-7-builtin:omfile queue: queue.c: queue.discardmark: 980
+4649.040810202:main thread    : action-7-builtin:omfile queue: queue.c: queue.discardseverity: 8
+4649.040813908:main thread    : action-7-builtin:omfile queue: queue.c: queue.checkpointinterval: 0
+4649.040817207:main thread    : action-7-builtin:omfile queue: queue.c: queue.syncqueuefiles: 0
+4649.040823447:main thread    : action-7-builtin:omfile queue: queue.c: queue.type: 3 [Direct]
+4649.040826835:main thread    : action-7-builtin:omfile queue: queue.c: queue.workerthreads: 1
+4649.040830523:main thread    : action-7-builtin:omfile queue: queue.c: queue.timeoutshutdown: 0
+4649.040833771:main thread    : action-7-builtin:omfile queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.040836622:main thread    : action-7-builtin:omfile queue: queue.c: queue.timeoutenqueue: 50
+4649.040839998:main thread    : action-7-builtin:omfile queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.040843750:main thread    : action-7-builtin:omfile queue: queue.c: queue.workerthreadminimummessages: -1
+4649.040847102:main thread    : action-7-builtin:omfile queue: queue.c: queue.maxfilesize: 1048576
+4649.040850005:main thread    : action-7-builtin:omfile queue: queue.c: queue.saveonshutdown: 1
+4649.040853321:main thread    : action-7-builtin:omfile queue: queue.c: queue.dequeueslowdown: 0
+4649.040857012:main thread    : action-7-builtin:omfile queue: queue.c: queue.dequeuetimebegin: 0
+4649.040860378:main thread    : action-7-builtin:omfile queue: queue.c: queue.dequeuetimeend: 25
+4649.040863268:main thread    : ../action.c: Action 0x5609621d25e0: queue 0x5609621d2a60 created
+4649.040868003:main thread    : conf.c: Decoding traditional PRI filter 'uucp,news.crit'
+4649.040872066:main thread    : srutils.c: symbolic name: crit ==> 2
+4649.040878029:main thread    : srutils.c: symbolic name: uucp ==> 64
+4649.040885324:main thread    : srutils.c: symbolic name: news ==> 56
+4649.040894670:main thread    : conf.c: tried selector action for builtin:omfile: 0
+4649.040898723:main thread    : ../action.c: Module builtin:omfile processes this action.
+4649.040902574:main thread    : ../action.c: template: 'RSYSLOG_TraditionalFileFormat' assigned
+4649.040906585:main thread    : action-8-builtin:omfile queue: queue.c: parameter dump:
+4649.040909515:main thread    : action-8-builtin:omfile queue: queue.c: queue.filename '[NONE]'
+4649.040913433:main thread    : action-8-builtin:omfile queue: queue.c: queue.size: 1000
+4649.040917103:main thread    : action-8-builtin:omfile queue: queue.c: queue.dequeuebatchsize: 16
+4649.040919853:main thread    : action-8-builtin:omfile queue: queue.c: queue.mindequeuebatchsize: 0
+4649.040922607:main thread    : action-8-builtin:omfile queue: queue.c: queue.mindequeuebatchsize.timeout: 0
+4649.040926542:main thread    : action-8-builtin:omfile queue: queue.c: queue.maxdiskspace: 0
+4649.040930283:main thread    : action-8-builtin:omfile queue: queue.c: queue.highwatermark: -1
+4649.040933221:main thread    : action-8-builtin:omfile queue: queue.c: queue.lowwatermark: -1
+4649.040935964:main thread    : action-8-builtin:omfile queue: queue.c: queue.fulldelaymark: -1
+4649.040939952:main thread    : action-8-builtin:omfile queue: queue.c: queue.lightdelaymark: -1
+4649.040943589:main thread    : action-8-builtin:omfile queue: queue.c: queue.takeflowctlfrommsg: 0
+4649.040946381:main thread    : action-8-builtin:omfile queue: queue.c: queue.discardmark: 980
+4649.040949149:main thread    : action-8-builtin:omfile queue: queue.c: queue.discardseverity: 8
+4649.040953128:main thread    : action-8-builtin:omfile queue: queue.c: queue.checkpointinterval: 0
+4649.040956505:main thread    : action-8-builtin:omfile queue: queue.c: queue.syncqueuefiles: 0
+4649.040959313:main thread    : action-8-builtin:omfile queue: queue.c: queue.type: 3 [Direct]
+4649.040962083:main thread    : action-8-builtin:omfile queue: queue.c: queue.workerthreads: 1
+4649.040965977:main thread    : action-8-builtin:omfile queue: queue.c: queue.timeoutshutdown: 0
+4649.040969722:main thread    : action-8-builtin:omfile queue: queue.c: queue.timeoutactioncompletion: 1000
+4649.040972581:main thread    : action-8-builtin:omfile queue: queue.c: queue.timeoutenqueue: 50
+4649.040975348:main thread    : action-8-builtin:omfile queue: queue.c: queue.timeoutworkerthreadshutdown: 60000
+4649.040979333:main thread    : action-8-builtin:omfile queue: queue.c: queue.workerthreadminimummessages: -1
+4649.040985461:main thread    : action-8-builtin:omfile queue: queue.c: queue.maxfilesize: 1048576
+4649.040988331:main thread    : action-8-builtin:omfile queue: queue.c: queue.saveonshutdown: 1
+4649.040991097:main thread    : action-8-builtin:omfile queue: queue.c: queue.dequeueslowdown: 0
+4649.040994953:main thread    : action-8-builtin:omfile queue: queue.c: queue.dequeuetimebegin: 0
+4649.040998718:main thread    : action-8-builtin:omfile queue: queue.c: queue.dequeuetimeend: 25
